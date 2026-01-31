@@ -1,7 +1,7 @@
 // Name: Jarren Bess
 // Date: Jan 30, 2026
 // File name: app.js
-// Description: In-N-Out-Books is an app that lets user manage their book collection
+// Description: In-N-Out-Books is an app that lets users manage their book collection
 
 const express = require("express");
 const createError = require("http-errors");
