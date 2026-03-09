@@ -138,7 +138,7 @@ describe("Chapter 7: API Tests", () => {
     );
   });
 
-  it("Should return a 400 status code with a 'Baa request' message when the request body fails AJV validation", async () => {
+  it("Should return a 400 status code with a 'Bad request' message when the request body fails AJV validation", async () => {
     const res = await request(app)
       .post("/api/users/harry@hogwarts.edu/verify-security-questions")
       .send({
