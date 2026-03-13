@@ -1,0 +1,6 @@
+[submodule "cookbook"]
+	path = cookbook
+	url = git@github.com:jbb-codes/cookbook.git
+[submodule "in-n-out-books"]
+	path = in-n-out-books
+	url = git@github.com:jbb-codes/in-n-out-books.git
